@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/regal.png);
+}
+
+h1 {
+    padding: 15px;
+    color: aliceblue;
+    font-family: 'Engagement', cursive;
+}
+p {
+    font-family: 'Engagement', cursive;
+    padding: 25px;
+}
+
+#title {
+    font-size: 72px;
+    height: 100px;
+    width: 500px;
+    background-color: blue;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+#isntructions {
+    height: 450px;
+    width: 500px;
+    font-size: 30px;
+    background-color: pink;
+    color: aliceblue;
+}
