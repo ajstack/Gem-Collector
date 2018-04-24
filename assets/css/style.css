@@ -30,3 +30,37 @@ p {
     color: aliceblue;
 }
 
+#random-number {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    float: left;
+}
+
+#win-lose {
+    float: left;
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+
+#images {
+    clear: both;
+}
+
+#opal,
+#ruby,
+#sapphire,
+#steven {
+    height: 125px;
+    width: 125px;
+}
