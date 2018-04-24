@@ -9,7 +9,6 @@ h1 {
 }
 p {
     font-family: 'Engagement', cursive;
-    padding: 25px;
 }
 
 #title {
@@ -22,12 +21,16 @@ p {
     
 }
 
-#isntructions {
+#instructions {
     height: 450px;
     width: 500px;
     font-size: 30px;
     background-color: pink;
     color: aliceblue;
+}
+
+#text {
+    padding: 25px;
 }
 
 #random-number {
@@ -39,6 +42,7 @@ p {
     margin-bottom: 15px;
     margin-left: 35px;
     float: left;
+    font-size: 36px;
 }
 
 #win-lose {
@@ -49,6 +53,8 @@ p {
     color: aliceblue;
     margin-top: 15px;
     margin-left: 15px;
+    font-family: 'Engagement', cursive;
+    font-size: 24px;
 }
 
 
@@ -63,4 +69,15 @@ p {
 #steven {
     height: 125px;
     width: 125px;
+}
+
+#score-info {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;  
+    color: aliceblue;
+    font-size: 24px;
+    margin-left: 155px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gem Collector!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -13,8 +14,8 @@
             <h1>Gem Collector!</h1>
         </section>
 
-        <section id="isntructions">
-            <p>You will be given a random number at the start of the game.
+        <section id="instructions">
+            <p id="text">You will be given a random number at the start of the game.
                 <br>
                 <br>
                 There are four gems below. By clicking on a gem you will add a specific amount of points to your total score.
@@ -34,9 +35,11 @@
             <div id="random-number"></div>
 
             <div id="win-lose">
+                <p>Wins:</p>
+                <div id="win"></div>
+                <p>Losses:</p>
+                <div id="lose"></div>
                 <div id="game-alert"></div>
-                <div id="win">Wins:</div>
-                <div id="lose">Losses:</div>
             </div>
 
             <div id="images">
