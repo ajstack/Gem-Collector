@@ -40,7 +40,7 @@ p {
     color: aliceblue;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 35px;
+    margin-left: 25px;
     float: left;
     font-size: 36px;
 }
@@ -48,13 +48,29 @@ p {
 #win-lose {
     float: left;
     height: 100px;
-    width: 200px;
+    width: 100px;
     background-color: blueviolet;
     color: aliceblue;
     margin-top: 15px;
     margin-left: 15px;
     font-family: 'Engagement', cursive;
     font-size: 24px;
+}
+
+#alert {
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-top: 15px;
+    color: aliceblue;
+    font-family: 'Engagement', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+#game-alert {
+    padding-top: 35px;
 }
 
 #images {
@@ -78,4 +94,10 @@ p {
     margin-left: 155px;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+#score {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 36px;
 }
