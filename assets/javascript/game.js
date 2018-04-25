@@ -1,12 +1,11 @@
-var jewels = [
+var jewels = [                           //I'm not sure if this array thing is going to work the way I want it to...
     "opal",
     "ruby",
     "sapphire",
     "steven"
 ];
-//var randomNumber = $("#random-number");  // Number needed to be matched
-var gameAlert = $("game-alert");         // Display if won or lost
-var score = 0;                  // Display current user number
+// var gameAlert = $("game-alert");         // Display if won or lost
+var score = 0;                           // Display current user number
 var winCount = 0;                        // Initial win count
 var lossCount = 0;                       // Initial loss count
  
@@ -51,7 +50,11 @@ $(document).ready(function(){
     };
 
     $("opal").click(function(){
-
+        //score = opal + score
+        //if score > randomNumber 
+            //loser();
+        //else if score === randomNumber
+            //winner();
     });
 
 });
