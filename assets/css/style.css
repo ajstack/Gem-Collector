@@ -43,6 +43,7 @@ p {
     margin-left: 25px;
     float: left;
     font-size: 36px;
+    text-align: center;
 }
 
 #win-lose {

@@ -62,7 +62,7 @@ $(document).ready(function(){
         reset();
     };
 
-    function checkScore (){
+    function checkScore(){
         if (score === randomNumber) {
             winner();
         } else if (score > randomNumber) {
