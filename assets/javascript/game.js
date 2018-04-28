@@ -38,6 +38,7 @@ $(document).ready(function(){
         randomNumber = Math.floor((Math.random() * 101) + 19);
         $("#random-number").text(randomNumber);
         score = 0;
+        $("#score").text(score);
     };
 
     function winner(){
