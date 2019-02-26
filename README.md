@@ -1,4 +1,4 @@
-# unit-4-game
+# Gem Collector
 
 You will be given a random number at the start of the game.
 
