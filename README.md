@@ -12,6 +12,12 @@ Each time the game starts, the game will change the values of each crystal.
 
 ![Alt Text](https://github.com/ajstack/Gem-Collector/blob/master/assets/images/GemCollector.gif)
 
+
+## This app utilizes
+* HTML
+* CSS
+* Javascript
+
 This project is maintained by Alicia Stack
 
 https://ajstack.github.io/Gem-Collector/
