@@ -11,13 +11,13 @@ var lossCount = 0;                       // Initial loss count
  
 $(document).ready(function(){
 
-    // Display how many times user has won or lost {I got this to work by getting rid of the variables and linking directly to the html}
+    // Display how many times user has won or lost 
     $("#win").text(winCount);
     $("#lose").text(lossCount);
     $("#score").text(score);
     
-    // Assign values to jewels {I think this is working}
-    for (i = 0; i < jewels.length; i++){
+    // Assign values to jewels 
+    for (var i = 0; i < jewels.length; i++){
         jewels[i] = Math.floor((Math.random() * 11) + 1);
     }
         console.log(jewels[0]);
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $("#random-number").text(randomNumber);
 
     function reset(){
-        for (i = 0; i < jewels.length; i++){
+        for (var i = 0; i < jewels.length; i++){
             jewels[i] = Math.floor((Math.random() * 11) + 1);
         }
         randomNumber = Math.floor((Math.random() * 101) + 19);
@@ -94,4 +94,13 @@ $(document).ready(function(){
         $("#score").text(score);
         checkScore();
     });
+
+   
+
+
+
+
+
+
+
 });

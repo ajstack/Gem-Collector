@@ -8,7 +8,7 @@ h1 {
     font-family: 'Engagement', cursive;
 }
 p {
-    font-family: 'Engagement', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 #title {
@@ -24,9 +24,9 @@ p {
 #instructions {
     height: 450px;
     width: 500px;
-    font-size: 30px;
+    font-size: 23px;
     background-color: pink;
-    color: aliceblue;
+    color: gray;
 }
 
 #text {
@@ -44,6 +44,7 @@ p {
     float: left;
     font-size: 36px;
     text-align: center;
+    font-family: 'Engagement', cursive;
 }
 
 #win-lose {
@@ -95,6 +96,7 @@ p {
     margin-left: 155px;
     margin-bottom: 15px;
     margin-top: 15px;
+    font-family: 'Engagement', cursive;
 }
 
 #score {
