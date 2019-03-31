@@ -10,6 +10,8 @@ The value of each gem is hidden until you click on it.
 
 Each time the game starts, the game will change the values of each crystal.
 
+![Alt Text](https://github.com/ajstack/Gem-Collector/blob/master/assets/images/GemCollector.gif)
+
 This project is maintained by Alicia Stack
 
 https://ajstack.github.io/Gem-Collector/
